@@ -3,7 +3,7 @@ import 'basiclightbox/src/styles/main.scss';
 import AddNote from '../AddNote';
 import editTemp from '../../tamplates/edit-note.hbs';
 
-document.querySelector('.modalBtn').onclick = data => {
+document.querySelector('.modalBtn').onclick = () => {
   basicLightbox
     .create(editTemp(), {
       onShow: basicLightbox => {

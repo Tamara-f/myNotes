@@ -13,7 +13,6 @@ export default function createNoteData(e) {
     category,
     content,
     dates,
-    // archived: false,
   };
   return noteData;
 }
