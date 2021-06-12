@@ -1,0 +1,29 @@
+<div class='addNote modal'>
+  <form>
+    <label>Name:</label>
+    <input
+      class='inputModal'
+      type='text'
+      placeholder='{{name}}'
+      value='{{name}}'
+    />
+    <div class='radio'>Choose category:
+      <label><input
+          type='radio'
+          name='radio'
+          value='Task'
+          checked
+        />Task</label>
+      <label><input type='radio' name='radio' value='Random Though' />Random
+        Though</label>
+      <label><input type='radio' name='radio' value='Idea' />Idea</label>
+    </div>
+    <label for='content'>Content:</label>
+    <textarea
+      id='content'
+      name='content'
+      rows='5'
+      cols='33'
+    >{{content}}</textarea>
+    <a class='close'> <button type='submit'>Save</button></a>
+  </form></div>

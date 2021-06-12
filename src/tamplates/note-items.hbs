@@ -1,0 +1,23 @@
+{{#each this}}
+  <li id={{id}} class='note-item'>
+    <p class='note-text'>{{name}}</p>
+    <p>{{created}}</p>
+    <p>{{category}}</p>
+    <p>{{content}}</p>
+    <p>{{dates}}</p>
+    <p>
+      <span class='note-edit'><i
+          class='fas fa-edit'
+          data-title='edit'
+        ></i></span>
+      <span class='note-archive'><i
+          class='fas fa-archive'
+          data-title='archive'
+        ></i></span>
+      <span class='note-trash'><i
+          class='fas fa-trash-alt'
+          data-title='delete'
+        ></i></span>
+    </p>
+  </li>
+{{/each}}
