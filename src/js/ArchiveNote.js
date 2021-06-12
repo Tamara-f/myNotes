@@ -1,5 +1,5 @@
 import updateStats from './helpers/updateStats';
-const archivedTasksHolder = document.querySelector('.archived-notes'); //completed-tasks
+const archivedTasksHolder = document.querySelector('.archived-notes');
 
 export default function ArchiveNote(e) {
   const listItem = e.target.parentNode.parentNode.parentNode;

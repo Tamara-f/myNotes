@@ -1,4 +1,4 @@
-const archivedTasksHolder = document.querySelector('.archived-notes'); //completed-tasks
+const archivedTasksHolder = document.querySelector('.archived-notes');
 const statsActive = document.querySelector('.statsActive');
 const statsArchive = document.querySelector('.statsArchive');
 

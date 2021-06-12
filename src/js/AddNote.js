@@ -1,8 +1,5 @@
 import itemsTemplate from '../tamplates/note-items.hbs';
-import DeleteNote from './DeleteNote';
-import EditNote from './EditNote';
 import createNoteData from './helpers/createNoteData';
-import ArchiveNote from './ArchiveNote';
 import updateStats from './helpers/updateStats';
 
 const notes = document.querySelector('ul.notes');
