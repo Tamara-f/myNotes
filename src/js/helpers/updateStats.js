@@ -5,7 +5,7 @@ const statsArchive = document.querySelector('.statsArchive');
 export default function setArchive() {
   const notelist = document.querySelectorAll('.note-item');
   const listArr = notelist.length;
-  const archive = archivedTasksHolder.childNodes.length - 1;
+  const archive = archivedTasksHolder.childNodes.length;
 
   statsActive.textContent = `${listArr - archive}`;
   statsArchive.textContent = `${archive}`;

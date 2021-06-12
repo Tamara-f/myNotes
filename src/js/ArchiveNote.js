@@ -1,7 +1,7 @@
 import updateStats from './helpers/updateStats';
 const archivedTasksHolder = document.querySelector('.archived-notes');
 
-export default function ArchiveNote(e) {
+export default async function ArchiveNote(e) {
   const listItem = e.target.parentNode.parentNode.parentNode;
 
   //hidden for edit & delete
