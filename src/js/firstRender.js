@@ -1,4 +1,4 @@
-import itemsTemplate from '../tamplates/note-items.hbs';
+import itemsTemplate from '../templates/note-items.hbs';
 import DeleteNote from './DeleteNote';
 import EditNote from './EditNote';
 import ArchiveNote from './ArchiveNote';

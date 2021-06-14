@@ -1,4 +1,4 @@
-import itemsTemplate from '../tamplates/note-items.hbs';
+import itemsTemplate from '../templates/note-items.hbs';
 import createNoteData from './helpers/createNoteData';
 import updateStats from './helpers/updateStats';
 

@@ -1,7 +1,7 @@
 import * as basicLightbox from 'basiclightbox';
 import 'basiclightbox/src/styles/main.scss';
 import AddNote from '../AddNote';
-import editTemp from '../../tamplates/edit-note.hbs';
+import editTemp from '../../templates/edit-note.hbs';
 
 document.querySelector('.modalBtn').onclick = () => {
   basicLightbox

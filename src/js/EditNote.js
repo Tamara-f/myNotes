@@ -1,4 +1,4 @@
-import editTemplate from '../tamplates/edit-note.hbs';
+import editTemplate from '../templates/edit-note.hbs';
 import * as basicLightbox from 'basiclightbox';
 import 'basiclightbox/src/styles/main.scss';
 import addNote from './AddNote';
